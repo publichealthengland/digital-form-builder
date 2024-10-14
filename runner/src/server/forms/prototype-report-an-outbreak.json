@@ -1,0 +1,1840 @@
+{
+  "metadata": {},
+  "startPage": "/acute-respiratory-infections-ari---covid-19-flu-or-unknown-infection-in-adult-social-care-settings",
+  "pages": [
+    {
+      "path": "/acute-respiratory-infections-ari---covid-19-flu-or-unknown-infection-in-adult-social-care-settings",
+      "title": "Report an outbreak of acute respiratory infection in an adult social care setting",
+      "components": [
+        {
+          "name": "nMOTrx",
+          "options": {},
+          "type": "Para",
+          "content": "<p class=\"govuk-caption-l govuk-!-margin-bottom-6\">Applies to England</p>\n",
+          "schema": {}
+        },
+        {
+          "name": "nMOTry",
+          "options": {},
+          "type": "Para",
+          "content": "<p class=\"govuk-body-m\">\n You can use this service if you provide adult social care, such as a care home, retirement home, supported living or extra care.\n <p class=\"govuk-body-m\">Use this service to report:<p>\n <ul class=\"govuk-list govuk-list--bullet\">\n <li>a new outbreak of an acute respiratory infection (ARI) - 2 or more people in your setting with symptom onset within 5 days of each other</li>\n <li>a single confirmed case of flu in your setting</li></ul>\n <p class=\"govuk-body-m\">ARIs include COVID-19, flu, respiratory syncytial virus (RSV), or unknown respiratory infection including chest infections.</p>\n <p class=\"govuk-body-m\">It should take about 10 minutes to complete.</p>\n\n <h3 class=\"govuk-heading-m\">Before you start</h3>\n <p class=\"govuk-body\">\n If possible, test all service users with symptoms who are <a href=\"https://www.nhs.uk/conditions/covid-19/treatments-for-covid-19/\" target=\"_blank\" class=\"govuk-link\">eligible for COVID-19 treatments</a> using a COVID-19 rapid lateral flow test. Staff with symptoms who are eligible for COVID-19 treatments should test themselves at home. \n </p>\n <p class=\"govuk-body\">\n If you cannot test people, do not wait. Report as soon as possible. \n </p>\n <p class=\"govuk-body\">\n You'll need to know the:\n </p>\n <ul class=\"govuk-list govuk-list--bullet\">\n <li>setting postcode</li>\n <li>total number of service users and staff in your setting</li>\n<li>number of service users and staff with symptoms</li>\n<li>dates when people's symptoms started</li>\n<li>test results for anyone tested for any ARI, for example COVID-19, flu or RSV</li>\n<li>number of service users and staff vaccinated for COVID-19 and flu</li>\n</ul>\n<button class=\"govuk-button govuk-button--start\" data-module=\"govuk-button\" id=\"submit\"> Start now <svg class=\"govuk-button__start-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"17.5\" height=\"19\" viewBox=\"0 0 33 40\" aria-hidden=\"true\" focusable=\"false\"> <path fill=\"currentColor\" d=\"M0 0h13l20 20-20 20H0l20-20z\"></path> </svg></button>\n<h3 class=\"govuk-heading-m\">Updating about an existing outbreak</h3>\n <p class=\"govuk-body\">\n Do not use this online service to give an update on an outbreak or cluster of ARI that you've already reported. If you need to give an update, contact your local <a href=\"https://www.gov.uk/health-protection-team/\" target=\"_blank\" class=\"govuk-link\">UKHSA health protection team</a> or your community infection control team.\n </p> <h3 class=\"govuk-heading-m\">Identifying an ARI outbreak</h3>\n <p class=\"govuk-body\">You only need to report 2 or more ARI cases if they could be linked by spread in your setting. If the infection could not have been spread in your setting, you should not report it as an outbreak. If in doubt, report as an outbreak.</p>\n <p class=\"govuk-body\">Do not use this service to report:</p>\n <ul class=\"govuk-list govuk-list--bullet\">\n <li>single cases of COVID-19</li>\n <li>any infection other than acute respiratory infections</li>\n</ul>\n <p class=\"govuk-body\">Read more on:</p>\n <ul class=\"govuk-list govuk-list--bullet\">\n <li><a href=\"https://www.gov.uk/government/publications/infection-prevention-and-control-in-adult-social-care-acute-respiratory-infection\" target=\"_blank\" class=\"govuk-link\">infection prevention and control in adult social care: acute respiratory infection</a></li>\n<li><a href=\"https://www.nhs.uk/conditions/respiratory-tract-infection/\" target=\"_blank\" class=\"govuk-link\">identifying and treating respiratory infections on the NHS website</a></li>\n</ul>\n<h3 class=\"govuk-heading-m\">Why you should report an outbreak</h3>\n<p class=\"govuk-body\">Your local UKHSA health protection team, or the community infection control team, will use your information to assess your outbreak. They will help you manage the outbreak and prevent further spread.</p>\n<h3 class=\"govuk-heading-m\">Get help</h3>\n<p class=\"govuk-body\">If you need help using the service or have any other questions, contact your local <a href=\"https://www.gov.uk/health-protection-team/\" target=\"_blank\" class=\"govuk-link\">UKHSA health protection team</a> during working hours.</p>\n<p class=\"govuk-body\">If your enquiry is urgent outside of working hours, telephone your health protection team's out-of-hours service.</p>\n<h3 class=\"govuk-heading-m\">If you need urgent medical advice</h3>\n<p class=\"govuk-body\">If you need urgent medical advice, you should call NHS 111 or visit <a href=\"https://111.nhs.uk/\" target=\"_blank\" class=\"govuk-link\">111.nhs.uk</a>. For life-threatening emergencies, call 999.</p>\n",
+          "schema": {}
+        }
+      ],
+      "next": [{ "path": "/uon-and-cqc" }],
+      "controller": "./pages/start.js"
+    },
+    {
+      "path": "/uon-and-cqc",
+      "title": "Acute Respiratory Infections (ARI) - COVID-19, Flu or unknown infection in Adult Social Care settings",
+      "components": [
+        {
+          "name": "S0Q4",
+          "options": {
+            "customValidationMessages": {
+              "string.regex.base": "Enter a full UK postcode",
+              "string.pattern.base": "Enter a full UK postcode",
+              "string.empty": "Your setting postcode is required",
+              "string.base": "Your setting postcode is required"
+            },
+            "classes": "govuk-input--width-10"
+          },
+          "type": "TextField",
+          "title": "Your setting postcode",
+          "schema": {
+            "regex": "^([a-zA-Z]{1,2}[0-9][a-zA-Z0-9]? *[0-9][a-zA-Z]{2}|[a-zA-Z]{1,2}[0-9][a-zA-Z0-9]?)$"
+          },
+          "nameHasError": false,
+          "hint": "Give the postcode of your care setting, not the management company. If you provide domiciliary or home care, enter the postcode of the care provider company."
+        },
+        {
+          "name": "S0Q3",
+          "options": {
+            "required": true,
+            "customValidationMessages": {
+              "string.empty": "Your local UKHSA health protection team is required",
+              "string.base": "Your local UKHSA health protection team is required"
+            }
+          },
+          "type": "SelectField",
+          "title": "Your local UKHSA health protection team",
+          "list": "sjgMDe",
+          "nameHasError": false,
+          "schema": {},
+          "values": { "type": "listRef" }
+        },
+        {
+          "name": "cstZQG",
+          "options": {},
+          "type": "Para",
+          "content": "<a target=\"_blank\" id=\"local-health-protection-team\" href=\"https://www.gov.uk/health-protection-team\">Use your postcode to find your local health protection team (opens in a new tab)</a>",
+          "schema": {}
+        },
+        {
+          "name": "S0Q2",
+          "options": {
+            "required": false,
+            "optionalText": false,
+            "classes": "govuk-input--width-10",
+            "conditionalTextField": {
+              "dependsOn": "S0Q5"
+            },
+            "fieldName": "cqc"
+          },
+          "type": "TextFieldCustom",
+          "title": "Your Care Quality Commission (CQC) location ID",
+          "nameHasError": false,
+          "schema": {
+            "regex": "^(1-\\d{1,11}|[a-zA-Z0-9]{3,7})$"
+          }
+        },
+        {
+          "name": "rIpMWq",
+          "options": {},
+          "type": "Para",
+          "content": "<div class='govuk-checkboxes__divider'>or</div>"
+        },
+        {
+          "name": "S0Q5",
+          "options": {
+            "hideTitle": true,
+            "required": false
+          },
+          "type": "CheckboxesField",
+          "title": "My setting is not registered with the CQC",
+          "nameHasError": false,
+          "list": "OZDejp",
+          "schema": {}
+        },
+        {
+          "name": "VMOkqi",
+          "options": {},
+          "type": "Para",
+          "content": "<a id=\"cqc number\" target=\"_blank\" href=\"https://www.cqc.org.uk/about-us/transparency/using-cqc-data\">Find your CQC location ID in the care directory on the CQC website (opens in a new tab).</a>",
+          "schema": {}
+        },
+        {
+          "name": "rIpMWr",
+          "options": {},
+          "type": "Html",
+          "content": "<script>\ndocument.addEventListener('DOMContentLoaded', function() {\nconst cqcIdText = document.getElementById('S0Q2');\nconst cqcIdCheckbox = document.getElementById('S0Q5');\nfunction updateTextFieldRequiredState() {\nconst isChecked = cqcIdCheckbox.checked;\ncqcIdText.required = !isChecked;\n}\nfunction clearCheckbox() {\ncqcIdCheckbox.checked = false;\n}\ncqcIdCheckbox.addEventListener('change', function() {\nif (cqcIdCheckbox.checked) {\ncqcIdText.value = '';\n}\nupdateTextFieldRequiredState();\n});\ncqcIdText.addEventListener('input', function() {\nif (cqcIdText.value !== '') {\nclearCheckbox();\n}\nupdateTextFieldRequiredState()\n});\n});\n</script>"
+        }
+      ],
+      "next": [
+        { "path": "/Section-1-What-type-of-adult-social-care-do-you-provide" }
+      ]
+    },
+    {
+      "path": "/Section-1-What-type-of-adult-social-care-do-you-provide",
+      "title": "Section 1 - What type of adult social care do you provide?",
+      "components": [
+        { "name": "rHEHfX", "options": {}, "type": "Para", "schema": {} },
+        {
+          "name": "S1Q1",
+          "options": {
+            "hideTitle": true,
+            "customValidationMessage": "Select the type of adult social care that you provide"
+          },
+          "type": "RadiosField",
+          "title": "S1Q1. What type of adult social care provider are you?",
+          "nameHasError": false,
+          "list": "MpSRIP",
+          "schema": {},
+          "values": { "type": "listRef" }
+        },
+        {
+          "name": "KRUUTd",
+          "options": { "condition": "tholUC" },
+          "type": "Para",
+          "content": "If you are currently changing your answer as part of the ‘Check your answers’ page, when you are re-directed back to the ‘Check your answers’ page, please ensure you have entered answers to all the mandatory questions that are newly visible on the page.",
+          "schema": {}
+        }
+      ],
+      "next": [
+        {
+          "path": "/Section-1-What-type-of-adult-social-care-do-you-provide-Continuation-2",
+          "condition": "VBVcUJ"
+        },
+        {
+          "path": "/Section-1-What-type-of-adult-social-care-do-you-provide-Continuation-1",
+          "condition": "sUrRwU"
+        },
+        {
+          "path": "/Section-1-What-type-of-adult-social-care-do-you-provide-Continuation-3"
+        }
+      ]
+    },
+    {
+      "path": "/Section-1-What-type-of-adult-social-care-do-you-provide-Continuation-1",
+      "title": "Section 1 - What type of adult social care do you provide? (Continuation 1)",
+      "components": [
+        {
+          "name": "S1Q4",
+          "options": {},
+          "type": "TextField",
+          "nameHasError": false,
+          "title": "S1Q4. Name of Care Home",
+          "schema": {},
+          "hint": "Please provide name of specific setting affected (i.e. not the overarching management company if applicable)."
+        },
+        {
+          "name": "S1Q5",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q5. Name of Key Contact Person",
+          "nameHasError": false,
+          "schema": {}
+        },
+        {
+          "name": "S1Q6",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q6. Position of Key Contact Person",
+          "nameHasError": false,
+          "hint": "E.g. manager, senior carer.",
+          "schema": {}
+        },
+        {
+          "name": "S1Q7",
+          "options": {
+            "customValidationMessage": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 808 157 0192",
+            "customValidationMessages": {
+              "string.base": "S1Q7. Telephone number/s of Key Contact Person is required",
+              "string.empty": "S1Q7. Telephone number/s of Key Contact Person is required"
+            }
+          },
+          "type": "TelephoneNumberField",
+          "title": "S1Q7. Telephone number/s of Key Contact Person",
+          "hint": "Please consider using a non-personal number.",
+          "nameHasError": false,
+          "schema": { "regex": "^(?:\\+44|0)(?:\\s*\\d\\s*){10,11}$" }
+        },
+        {
+          "name": "S1Q8",
+          "options": {
+            "customValidationMessages": {
+              "string.empty": "Enter an email address in the correct format, like name@example.com",
+              "string.pattern.base": "Enter an email address in the correct format, like name@example.com"
+            },
+            "exposeToContext": true
+          },
+          "type": "TextField",
+          "title": "S1Q8. Email of key contact person",
+          "hint": "Please use an address that will be regularly and frequently monitored.",
+          "schema": {
+            "regex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+          }
+        }
+      ],
+      "next": [
+        {
+          "path": "/what-acute-respiratory-infections-are-you-reporting"
+        }
+      ]
+    },
+    {
+      "path": "/Section-1-What-type-of-adult-social-care-do-you-provide-Continuation-2",
+      "title": "Section 1 - What type of adult social care do you provide? (Continuation 2)",
+      "components": [
+        {
+          "name": "S1Q3",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q3. Name of Care Provider/Company/Setting",
+          "nameHasError": false,
+          "schema": {},
+          "hint": "If you are reporting an outbreak within a specific setting - please name that setting. Otherwise please state the name of the company providing the care e.g. the Domiciliary/Home Care agency."
+        },
+        {
+          "name": "S1Q5",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q5. Name of Key Contact Person",
+          "nameHasError": false,
+          "hint": "",
+          "schema": {}
+        },
+        {
+          "name": "S1Q6",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q6. Position of Key Contact Person",
+          "nameHasError": false,
+          "hint": "E.g. manager, senior carer.",
+          "schema": {}
+        },
+        {
+          "name": "S1Q7",
+          "options": {
+            "customValidationMessage": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 808 157 0192",
+            "customValidationMessages": {
+              "string.base": "S1Q7. Telephone number/s of Key Contact Person is required",
+              "string.empty": "S1Q7. Telephone number/s of Key Contact Person is required"
+            }
+          },
+          "type": "TelephoneNumberField",
+          "title": "S1Q7. Telephone number/s of Key Contact Person",
+          "hint": "Please consider using a non-personal number.",
+          "nameHasError": false,
+          "schema": { "regex": "^(?:\\+44|0)(?:\\s*\\d\\s*){10,11}$" }
+        },
+        {
+          "name": "S1Q8",
+          "options": {
+            "customValidationMessages": {
+              "string.empty": "Enter an email address in the correct format, like name@example.com",
+              "string.pattern.base": "Enter an email address in the correct format, like name@example.com"
+            }
+          },
+          "type": "TextField",
+          "title": "S1Q8. Email of key contact person",
+          "hint": "Please use an address that will be regularly and frequently monitored.",
+          "schema": {
+            "regex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+          }
+        }
+      ],
+      "next": [
+        {
+          "path": "/what-acute-respiratory-infections-are-you-reporting"
+        }
+      ]
+    },
+    {
+      "path": "/Section-1-What-type-of-adult-social-care-do-you-provide-Continuation-3",
+      "title": "Section 1 - What type of adult social care do you provide? (Continuation 3)",
+      "components": [
+        {
+          "name": "sIFkPc",
+          "options": {},
+          "type": "Para",
+          "content": "These questions ask for basic information about your setting.",
+          "schema": {}
+        },
+        {
+          "name": "S1Q2",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q2. State your setting type",
+          "nameHasError": false,
+          "schema": {}
+        },
+        {
+          "name": "S1Q3",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q3. Name of Care Provider/Company/Setting",
+          "nameHasError": false,
+          "hint": "If you are reporting an outbreak within a specific setting - please name that setting. Otherwise please state the name of the company providing the care e.g. the Domiciliary/Home Care agency.",
+          "schema": {}
+        },
+        {
+          "name": "S1Q5",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q5. Name of Key Contact Person",
+          "nameHasError": false,
+          "schema": {}
+        },
+        {
+          "name": "S1Q6",
+          "options": {},
+          "type": "TextField",
+          "title": "S1Q6. Position of Key Contact Person",
+          "nameHasError": false,
+          "hint": "E.g. manager, senior carer.",
+          "schema": {}
+        },
+        {
+          "name": "S1Q7",
+          "options": {
+            "customValidationMessage": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 808 157 0192",
+            "customValidationMessages": {
+              "string.base": "S1Q7. Telephone number/s of Key Contact Person is required",
+              "string.empty": "S1Q7. Telephone number/s of Key Contact Person is required"
+            }
+          },
+          "type": "TelephoneNumberField",
+          "title": "S1Q7. Telephone number/s of Key Contact Person",
+          "hint": "Please consider using a non-personal number.",
+          "nameHasError": false,
+          "schema": { "regex": "^(?:\\+44|0)(?:\\s*\\d\\s*){10,11}$" }
+        },
+        {
+          "name": "S1Q8",
+          "options": {
+            "customValidationMessages": {
+              "string.empty": "Enter an email address in the correct format, like name@example.com",
+              "string.pattern.base": "Enter an email address in the correct format, like name@example.com"
+            }
+          },
+          "type": "TextField",
+          "title": "S1Q8. Email of key contact person",
+          "hint": "Please use an address that will be regularly and frequently monitored.",
+          "schema": {
+            "regex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$"
+          }
+        }
+      ],
+      "next": [
+        {
+          "path": "/what-acute-respiratory-infections-are-you-reporting"
+        }
+      ]
+    },
+    {
+      "title": "",
+      "path": "/what-acute-respiratory-infections-are-you-reporting",
+      "components": [
+        {
+          "name": "aEshvo",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "aVaoar",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>What acute respiratory infections are you reporting?</p>"
+        },
+        {
+          "name": "PPmOjL",
+          "options": { "hideTitle": true },
+          "type": "CheckboxesField",
+          "hint": "You can select more than one option",
+          "list": "mAuVdL",
+          "title": "What respiratory infections are you reporting?",
+          "schema": {}
+        }
+      ],
+      "next": [
+        {
+          "path": "/covid",
+          "condition": "cILWvX"
+        },
+        { "path": "/covid", "condition": "cPIGBp" },
+        {
+          "path": "/how-many-cases-of-an-acute-respiratory-infection-that-is-not-covid-19-or-flu-are-you-reporting",
+          "condition": "jOari"
+        }
+      ]
+    },
+    {
+      "path": "/covid",
+      "title": "",
+      "components": [
+        {
+          "name": "vaIsal",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "kla4a",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>How many cases of COVID-19 are you reporting?</p>"
+        },
+        {
+          "name": "HAEBSr",
+          "options": { "hideTitle": true },
+          "type": "RadiosField",
+          "title": "How many cases of COVID-19 are you reporting?",
+          "list": "nlpDYJ",
+          "schema": {}
+        }
+      ],
+      "next": [
+        { "path": "/you-do-not-need-to-report", "condition": "ayPFQr" },
+        { "path": "/covid-19-in-your-setting", "condition": "tljPxL" },
+        {
+          "path": "/how-many-cases-of-an-acute-respiratory-infection-that-is-not-covid-19-or-flu-are-you-reporting",
+          "condition": "ocaORI"
+        }
+      ]
+    },
+    {
+      "path": "/you-do-not-need-to-report",
+      "title": "",
+      "components": [
+        {
+          "name": "qoieaQc",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "aVaaie",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>You do not need to report?</p>"
+        },
+        {
+          "name": "joIxTn",
+          "options": {},
+          "type": "Para",
+          "content": "Based on your answers, you do not need to report this acute respiratory infection to us."
+        },
+        {
+          "name": "aWavis",
+          "options": {},
+          "type": "Para",
+          "content": "You only need to report:<br><ul><li style='list-style-type: disc;margin-left:20px'>2 or more cases of an acute respiratory infection in your setting with<br> symptoms that started within 5 days of each other</li><li style='list-style-type: disc;margin-left:20px'>single cases of confirmed flu</li></ul>"
+        }
+      ],
+      "next": []
+    },
+    {
+      "path": "/covid-19-in-your-setting",
+      "title": "",
+      "components": [
+        {
+          "name": "OW3cf2",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "jEvalX",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>COVID-19 in your setting</p>"
+        },
+        {
+          "name": "EOIyKr",
+          "options": {},
+          "type": "RadiosField",
+          "title": "Did symptoms in 2 or more cases of COVID-19 start within 5 days of each other?",
+          "list": "VSatMd"
+        },
+        {
+          "name": "fAgDrv",
+          "options": {},
+          "type": "RadiosField",
+          "title": "Is it possible that at least 2 of the cases of COVID-19 are linked by spread in your setting?​",
+          "list": "VSatMd"
+        },
+        {
+          "name": "TXvPXd",
+          "options": {},
+          "type": "RadiosField",
+          "title": "Has at least one case of COVID-19 been confirmed by a positive rapid lateral flow test?",
+          "list": "rcjLpd"
+        }
+      ],
+      "next": [
+        {
+          "path": "/how-many-cases-of-an-acute-respiratory-infection-that-is-not-covid-19-or-flu-are-you-reporting",
+          "condition": "cILWvX"
+        },
+        { "path": "/check-your-answers-before-continuing" }
+      ]
+    },
+    {
+      "path": "/how-many-cases-of-an-acute-respiratory-infection-that-is-not-covid-19-or-flu-are-you-reporting",
+      "title": "",
+      "components": [
+        {
+          "name": "aVwoir",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "xqIw2o",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>How many cases of an acute respiratory infection that is not COVID-19 or flu are you reporting?</p>"
+        },
+        {
+          "name": "lTbYAz",
+          "options": {},
+          "type": "RadiosField",
+          "title": "How many cases of an acute respiratory infection that is not COVID-19 or flu are you reporting? ",
+          "hint": "This includes viruses such as respiratory syncytial virus, rhinovirus, parainfluenza, chest infections or other ARI.",
+          "list": "nlpDYJ"
+        }
+      ],
+      "next": [
+        {
+          "path": "/do-you-have-a-positive-test-result-for-the-ari-that-is-not-covid-19-or-flu"
+        }
+      ]
+    },
+    {
+      "path": "/do-you-have-a-positive-test-result-for-the-ari-that-is-not-covid-19-or-flu",
+      "title": "",
+      "components": [
+        {
+          "name": "pwEvai",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "BsaRo",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>Do you have a positive test result for the ARI that is not COVID-19 or flu?</p>"
+        },
+        {
+          "name": "zAiouB",
+          "options": {},
+          "type": "RadiosField",
+          "title": "Do you have a positive test result for the ARI that is not COVID-19 or flu?",
+          "list": "rcjLpd"
+        }
+      ],
+      "next": [
+        {
+          "path": "/acute-respiratory-infections-aris-in-your-setting-that-are-not-covid-19-or-flu"
+        }
+      ]
+    },
+    {
+      "path": "/acute-respiratory-infections-aris-in-your-setting-that-are-not-covid-19-or-flu",
+      "title": "",
+      "components": [
+        {
+          "name": "HwqovW",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "OvQdk",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>Acute respiratory infections (ARIs) in your setting that are not COVID-19 or flu</p>"
+        },
+        {
+          "name": "UuhMNH",
+          "options": {},
+          "type": "RadiosField",
+          "title": "Did symptoms in 2 or more cases start within 5 days of each other?",
+          "list": "VSatMd"
+        },
+        {
+          "name": "nJRBWY",
+          "options": {},
+          "type": "RadiosField",
+          "title": "Is it possible that at least 2 of the cases are linked by spread in your setting?​",
+          "list": "VSatMd"
+        }
+      ],
+      "next": [{ "path": "/check-your-answers-before-continuing" }]
+    },
+    {
+      "path": "/check-your-answers-before-continuing",
+      "title": "",
+      "components": [
+        {
+          "name": "mBIra",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "AcrCa",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>Check your answers before continuing</p>"
+        },
+        {
+          "name": "oPa2ka",
+          "options": { "hideTitle": true },
+          "type": "Para",
+          "content": "<style>body {font-family: Arial, sans-serif;margin: 20px;}h1 {font-size: 24px;}h2 {font-size: 20px;color: #333;}.section {border: 1px solid #ccc;padding: 10px;margin-bottom: 20px;}.row {display: flex;justify-content: space-between;padding:5px 0;border-bottom: 1px solid #ddd}.row:last-child {border-bottom: none;}  a { color: #007bff;text-decoration: none;} a:hover {text-decoration: underline;} .continue {margin-top: 20px;font-style: italic;}</style></head><body><div class='section'><h2>COVID-19 in your setting</h2><div class='row'><span>Number of cases you are reporting</span><span>2 or more <a href='#'>Change</a></span></div><div class='row'>    <span>Symptoms started within 5 days of each other</span>    <span>Yes <a href='#'>Change</a></span></div><div class='row'> <span>You think the cases of COVID-19 are linked by spread in your setting</span><span>Yes <a href='#'>Change</a></span></div><div class='row'><span>At least one positive rapid lateral flow test</span><span>Yes <a href='#'>Change</a></span></div> </div> <div class='section'><h2>Acute respiratory infection in your setting</h2><div class='row'><span>Number of cases you are reporting</span><span>2 or more <a href='#'>Change</a></span></div><div class='row'> <span>Positive test result</span><span>Yes <a href='#'>Change</a></span></div><div class='row'><span>Symptoms started within 5 days of each other</span> <span>Yes <a href='#'>Change</a></span></div><div class='row'><span>You think the cases are linked by spread in your setting</span><span>Yes <a href='#'>Change</a></span></div></div><p class='continue'>Continue to tell us more about the cases of acute respiratory infections in your setting.</p>\n",
+          "schema": {}
+        }
+      ],
+      "next": [
+        {
+          "path": "/Section-4-Details-about-current-COVID-19-in-your-setting-Continuation-1"
+        },
+        {
+          "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1",
+          "condition": "jOari"
+        },
+        {
+          "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1",
+          "condition": "ocaORI"
+        }
+      ]
+    },
+    {
+      "path": "/Section-4-Details-about-current-COVID-19-in-your-setting-Continuation-1",
+      "title": "Section 4 - Details about current COVID-19 in your setting (Continuation 1)",
+      "customErrors": {
+        "dayMonth": "The date that symptoms started must include a day and a month",
+        "dayYear": "The date that symptoms started must include a day and a year",
+        "yearMonth": "The date that symptoms started must include a month and a year",
+        "S4Q6": {
+          "dayMonthYear": "Enter the date that symptoms started in the first case"
+        },
+        "S4Q8": {
+          "dayMonthYear": "Enter the date that symptoms started in the most recent case"
+        }
+      },
+      "components": [
+        {
+          "name": "S4Q2",
+          "options": {},
+          "type": "NumberField",
+          "title": "S4Q2. What is the total number of resident-client COVID-19 cases in the outbreak you are reporting (LFD confirmed only)?",
+          "nameHasError": false,
+          "hint": "Please include those with COVID-19 who are currently hospitalised or on visits out\n</br>\nIf zero then please enter 0",
+          "schema": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "name": "S4Q3",
+          "options": {},
+          "type": "NumberField",
+          "title": "S4Q3. What is the total number of staff COVID-19 cases in the outbreak you are reporting (LFD confirmed only)?",
+          "nameHasError": false,
+          "schema": {
+            "min": 0,
+            "max": 100
+          },
+          "hint": "Please note that you are not required to test symptomatic staff for COVID-19\n</br>\nPlease include those who are currently hospitalised with COVID-19\n</br>\nIf zero then please enter 0."
+        },
+        {
+          "name": "S4Q4",
+          "options": {},
+          "type": "NumberField",
+          "title": "S4Q4. What is the total number of residents-clients with COVID-19 symptoms who have not been tested?",
+          "nameHasError": false,
+          "hint": "Please include those with COVID-19 who are currently hospitalised or on visits out\n</br>\nIf zero then please enter 0",
+          "schema": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "name": "S4Q5",
+          "options": {},
+          "type": "NumberField",
+          "title": "S4Q5. What is the total number of staff with COVID-19 symptoms who have not been tested? ",
+          "nameHasError": false,
+          "hint": "Please note that you are not required to test symptomatic staff for COVID-19\n</br>\nPlease include those who are currently hospitalised with COVID-19\n</br>\nIf zero then please enter 0",
+          "schema": {
+            "min": 0,
+            "max": 100
+          }
+        },
+        {
+          "name": "S4Q6",
+          "options": {
+            "required": true,
+            "maxDaysInFuture": "0",
+            "customValidationMessages": {
+              "date.base": "The date that symptoms started must be a real date",
+              "date.max": "The date that symptoms started must be in the past",
+              "date.empty": "Enter the date that symptoms started in the first case"
+            },
+            "errorLabel": "The date that symptoms started"
+          },
+          "type": "DatePartsField",
+          "title": "S4Q6. Symptom onset date of first case",
+          "nameHasError": false,
+          "schema": {},
+          "hint": "(DD/MM/YYYY)"
+        },
+        {
+          "name": "S4Q7",
+          "options": {
+            "required": false,
+            "maxDaysInFuture": "0",
+            "customValidationMessages": {
+              "date.base": "The date that symptoms started must be a real date",
+              "date.max": "The date that symptoms started must be in the past"
+            },
+            "errorLabel": "The date that symptoms started",
+            "comparisonLabel": "second case",
+            "first_date_to_compare": "S4Q6",
+            "most_recent_date_to_compare": "S4Q7"
+          },
+          "type": "DatePartsField",
+          "title": "S4Q7. Symptom onset date of second case",
+          "hint": "(DD/MM/YYYY)",
+          "nameHasError": false,
+          "schema": {}
+        },
+        {
+          "name": "S4Q8",
+          "options": {
+            "required": true,
+            "maxDaysInFuture": "0",
+            "customValidationMessages": {
+              "date.base": "The date that symptoms started must be a real date",
+              "date.max": "The date that symptoms started must be in the past"
+            },
+            "errorLabel": "The date that symptoms started",
+            "comparisonLabel": "most recent case",
+            "first_date_to_compare": "S4Q6",
+            "most_recent_date_to_compare": "S4Q8"
+          },
+          "type": "DatePartsField",
+          "title": "S4Q8. Symptom onset date of most recent case",
+          "nameHasError": false,
+          "schema": {},
+          "hint": "(DD/MM/YYYY)"
+        },
+        {
+          "name": "S4Q9",
+          "options": {},
+          "type": "RadiosField",
+          "title": "S4Q9. For how many of your COVID-19 cases have you had to call the GP to review because of the severity of their illness?",
+          "nameHasError": false,
+          "list": "PJCwIx",
+          "schema": {},
+          "values": {
+            "type": "listRef"
+          }
+        },
+        {
+          "name": "S4Q10",
+          "options": {},
+          "type": "RadiosField",
+          "title": "S4Q10. During this outbreak, how many residents/clients or staff have been hospitalised due to COVID-19?",
+          "nameHasError": false,
+          "list": "PJCwIx",
+          "schema": {},
+          "values": {
+            "type": "listRef"
+          }
+        },
+        {
+          "name": "S4Q11",
+          "options": {},
+          "type": "RadiosField",
+          "title": "S4Q11. During this outbreak, how many residents/clients or staff have died due to COVID-19?",
+          "nameHasError": false,
+          "list": "PJCwIx",
+          "schema": {},
+          "values": {
+            "type": "listRef"
+          }
+        },
+        {
+          "name": "S4Q12",
+          "options": {
+            "required": false
+          },
+          "type": "YesNoField",
+          "title": "S4Q12. Are you aware of any media interest in this outbreak?",
+          "nameHasError": false,
+          "values": {
+            "type": "listRef"
+          },
+          "schema": {}
+        }
+      ],
+      "next": [
+        {
+          "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1",
+          "condition": "cILWvX"
+        },
+        {
+          "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1",
+          "condition": "jOari"
+        },
+        {
+          "path": "/vaccination-among-your-staff-and-service-users",
+          "condition": "cPIGBp"
+        }
+      ]
+    },
+    {
+      "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1",
+      "title": "Section 6 - Acute Respiratory Infection (Unknown) (Continuation 1)",
+      "customErrors": {
+        "dayMonth": "The date that symptoms started must include a day and a month",
+        "dayYear": "The date that symptoms started must include a day and a year",
+        "yearMonth": "The date that symptoms started must include a month and a year",
+        "S6Q4": {
+          "dayMonthYear": "Enter the date that symptoms started in the first case"
+        },
+        "S6Q6": {
+          "dayMonthYear": "Enter the date that symptoms started in the most recent case"
+        }
+      },
+      "components": [
+        {
+          "name": "S6Q2",
+          "options": {},
+          "type": "NumberField",
+          "title": "S6Q2. What is the total number of Residents-Clients with this ARI in your setting (suspected or confirmed)?",
+          "nameHasError": false,
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "hint": "If zero then please enter 0."
+        },
+        {
+          "name": "S6Q3",
+          "options": {},
+          "type": "NumberField",
+          "title": "S6Q3. What is the total number of Staff with this ARI in your setting (suspected or confirmed)?",
+          "nameHasError": false,
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "hint": "If zero then please enter 0."
+        },
+        {
+          "name": "S6Q4",
+          "options": {
+            "required": true,
+            "maxDaysInFuture": "0",
+            "errorLabel": "The date that symptoms started"
+          },
+          "type": "DatePartsField",
+          "title": "S6Q4. Symptom onset date of first case",
+          "nameHasError": false,
+          "schema": {},
+          "hint": "(DD/MM/YYYY)"
+        },
+        {
+          "name": "S6Q5",
+          "options": {
+            "required": false,
+            "maxDaysInFuture": "0",
+            "errorLabel": "The date that symptoms started",
+            "comparisonLabel": "second case",
+            "first_date_to_compare": "S6Q4",
+            "most_recent_date_to_compare": "S6Q5"
+          },
+          "type": "DatePartsField",
+          "title": "S6Q5. Symptom onset date of second case",
+          "nameHasError": false,
+          "schema": {},
+          "hint": "(DD/MM/YYYY)"
+        },
+        {
+          "name": "S6Q6",
+          "options": {
+            "required": true,
+            "maxDaysInFuture": "0",
+            "errorLabel": "The date that symptoms started",
+            "comparisonLabel": "most recent case",
+            "first_date_to_compare": "S6Q4",
+            "most_recent_date_to_compare": "S6Q6"
+          },
+          "type": "DatePartsField",
+          "title": "S6Q6. Symptom onset date of most recent case",
+          "nameHasError": false,
+          "schema": {},
+          "hint": "(DD/MM/YYYY)"
+        },
+        {
+          "name": "S6Q7",
+          "options": {
+            "required": false,
+            "errorLabel": "The date that symptoms started"
+          },
+          "type": "NumberField",
+          "title": "S6Q7. How many of these resident-client cases have been tested for COVID-19?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q8",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q8. How many of these staff cases have been tested for COVID-19?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q9",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q9. Of the residents-clients tested for Covid-19, how many had a positive result?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q10",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q10. Of the staff tested for Covid-19, how many had a positive result?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q11",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q11. How many of these resident-clients cases have been tested for Flu?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q12",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q12. How many of these staff cases have been tested for Flu?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q13",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q13. Of the residents-clients tested for Flu, how many had a positive result?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q14",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q14. Of the staff tested for Flu, how many had a positive result?",
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "nameHasError": false,
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q15",
+          "options": {},
+          "type": "RadiosField",
+          "title": "S6Q15. For how many of your cases with this ARI have you had to call the GP to review because of the severity of their illness?",
+          "nameHasError": false,
+          "list": "PJCwIx",
+          "values": {
+            "type": "listRef"
+          },
+          "schema": {}
+        },
+        {
+          "name": "S6Q16",
+          "options": {
+            "required": false
+          },
+          "type": "NumberField",
+          "title": "S6Q16. How many of all cases have been started on antibiotics for their respiratory symptoms?",
+          "nameHasError": false,
+          "schema": {
+            "min": 0,
+            "max": 50
+          },
+          "hint": "Please enter a number between 0 to 50."
+        },
+        {
+          "name": "S6Q17",
+          "options": {},
+          "type": "RadiosField",
+          "title": "S6Q17. During this outbreak, how many cases been hospitalised due to this ARI?",
+          "nameHasError": false,
+          "list": "PJCwIx",
+          "schema": {},
+          "values": {
+            "type": "listRef"
+          }
+        },
+        {
+          "name": "S6Q18",
+          "options": {},
+          "type": "RadiosField",
+          "title": "S6Q18. During this outbreak, how many cases have died due to this ARI? ",
+          "nameHasError": false,
+          "list": "PJCwIx",
+          "schema": {},
+          "values": {
+            "type": "listRef"
+          }
+        }
+      ],
+      "next": [
+        {
+          "path": "/vaccination-among-your-staff-and-service-users"
+        }
+      ]
+    },
+    {
+      "title": "",
+      "path": "/vaccination-among-your-staff-and-service-users",
+      "components": [
+        {
+          "name": "ale4Va",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
+        },
+        {
+          "name": "wTchD",
+          "options": {},
+          "type": "Para",
+          "schema": {},
+          "content": "<p class='govuk-heading-l'>Vaccination among your staff and service users</p>"
+        },
+        {
+          "name": "ZHUYNZ",
+          "options": { "required": false },
+          "type": "NumberField",
+          "title": "How many service users are up to date with the current COVID-19 vaccination schedule?"
+        },
+        {
+          "name": "uPUoxI",
+          "options": { "required": false },
+          "type": "NumberField",
+          "title": "How many staff are up to date with the current COVID-19 vaccination schedule?"
+        },
+        {
+          "name": "MaSswr",
+          "options": { "required": false },
+          "type": "NumberField",
+          "title": "How many service users have had the flu vaccine for this current winter season?"
+        },
+        {
+          "name": "nIUqPq",
+          "options": { "required": false },
+          "type": "NumberField",
+          "title": "How many staff have had the flu vaccine for this current winter season?"
+        }
+      ],
+      "next": [{ "path": "/summary" }]
+    },
+    {
+      "title": "Check your answers before sending your report",
+      "path": "/summary",
+      "controller": "./pages/summary.js",
+      "components": [
+        {
+          "name": "gxopvs",
+          "options": {},
+          "type": "Html",
+          "content": "<a href=\"URL\" target=\"_blank\">CONTENT</a>",
+          "schema": {}
+        }
+      ],
+      "next": []
+    }
+  ],
+  "lists": [
+    {
+      "title": "care-setting-not-registered",
+      "name": "OZDejp",
+      "type": "string",
+      "items": [
+        {
+          "text": "My setting is not registered with the CQC",
+          "value": "My setting is not registered with the CQC"
+        }
+      ]
+    },
+    {
+      "title": "social-care-provider-type",
+      "name": "MpSRIP",
+      "type": "string",
+      "items": [
+        {
+          "text": "Residential care home",
+          "value": "Residential care home"
+        },
+        {
+          "text": "Nursing care home",
+          "value": "Nursing care home"
+        },
+        {
+          "text": "Residential and nursing care home",
+          "value": "Residential and nursing care home"
+        },
+        {
+          "text": "High-risk supported living or extra care",
+          "value": "High-risk supported living or extra care",
+          "description": "High-risk supported living or extra care is defined as closed community with substantial facilities shared between multiple people and more than half of residents get CQC-regulated personal care."
+        },
+        {
+          "text": "Supported living or extra care (not high risk)",
+          "value": "Supported living or extra care (not high risk)"
+        },
+        {
+          "text": "Day centre",
+          "value": "Day centre"
+        },
+        {
+          "text": "Domiciliary or home care",
+          "value": "Domiciliary or home care"
+        },
+        {
+          "text": "Retirement home or village or sheltered housing",
+          "value": "Retirement home or village or sheltered housing"
+        },
+        {
+          "text": "Other",
+          "value": "Other"
+        }
+      ]
+    },
+    {
+      "title": "clientele-types",
+      "name": "REslMD",
+      "type": "string",
+      "items": [
+        {
+          "text": "Under 65 years",
+          "value": "Under 65 years"
+        },
+        {
+          "text": "65 years or over",
+          "value": "65 years or over"
+        },
+        {
+          "text": "People living with dementia",
+          "value": "People living with dementia"
+        },
+        {
+          "text": "People with learning difficulties/disabilities",
+          "value": "People with learning difficulties/disabilities"
+        },
+        {
+          "text": "People with mental health needs",
+          "value": "People with mental health needs"
+        }
+      ]
+    },
+    {
+      "title": "area-1-more-note-sure-n-a",
+      "name": "DcWntj",
+      "type": "string",
+      "items": [
+        {
+          "text": "Cases are all within one specific area",
+          "value": "Cases are all within one specific area"
+        },
+        {
+          "text": "Cases are across more than one area",
+          "value": "Cases are across more than one area"
+        },
+        {
+          "text": "Not sure",
+          "value": "Not sure"
+        },
+        {
+          "text": "Not applicable to my setting (e.g. domiciliary/home care)",
+          "value": "Not applicable to my setting (e.g. domiciliary/home care)"
+        }
+      ]
+    },
+    {
+      "title": "general-0-to-5",
+      "name": "PJCwIx",
+      "type": "string",
+      "items": [
+        {
+          "text": "0",
+          "value": "0"
+        },
+        {
+          "text": "1",
+          "value": "1"
+        },
+        {
+          "text": "2 to 3",
+          "value": "2 to 3"
+        },
+        {
+          "text": "4 to 5",
+          "value": "4 to 5"
+        },
+        {
+          "text": "Greater than 5",
+          "value": "Greater than 5"
+        },
+        {
+          "text": "Don't know",
+          "value": "Don't know"
+        }
+      ]
+    },
+    {
+      "title": "HPTs",
+      "name": "sjgMDe",
+      "type": "string",
+      "items": [
+        {
+          "text": "East of England HPT",
+          "value": "East of England HPT"
+        },
+        {
+          "text": "West Midlands HPT",
+          "value": "West Midlands HPT"
+        },
+        {
+          "text": "South West HPT",
+          "value": "South West HPT"
+        }
+      ]
+    },
+    {
+      "title": "s9s2 - 5 more more",
+      "name": "LiqmvS",
+      "type": "string",
+      "items": [
+        {
+          "text": "Fewer than 5",
+          "value": "Fewer than 5"
+        },
+        {
+          "text": "5 or more",
+          "value": "5 or more"
+        }
+      ]
+    },
+    {
+      "title": "ari-options",
+      "name": "mAuVdL",
+      "type": "string",
+      "items": [
+        { "text": "COVID-19", "value": "COVID-19" },
+        { "text": "Flu", "value": "Flu" },
+        {
+          "text": "Any other acute respiratory infections",
+          "value": "Any other acute respiratory infections"
+        }
+      ]
+    },
+    {
+      "title": "general-1-or-2-more",
+      "name": "nlpDYJ",
+      "type": "string",
+      "items": [
+        { "text": "1", "value": 1 },
+        { "text": "2 or more", "value": "2 or more" }
+      ]
+    },
+    {
+      "title": "yes-no-not-sure",
+      "name": "VSatMd",
+      "type": "string",
+      "items": [
+        { "text": "Yes", "value": "Yes" },
+        { "text": "No", "value": "No" },
+        { "text": "Not sure", "value": "Not sure" }
+      ]
+    },
+    {
+      "title": "yes-no",
+      "name": "rcjLpd",
+      "type": "string",
+      "items": [
+        { "text": "Yes", "value": "Yes" },
+        { "text": "No", "value": "No" }
+      ]
+    }
+  ],
+  "sections": [],
+  "conditions": [
+    {
+      "displayName": "S1Q1:RESIDENTIAL",
+      "name": "sUrRwU",
+      "value": {
+        "name": "S1Q1:RESIDENTIAL",
+        "conditions": [
+          {
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is",
+            "value": {
+              "type": "Value",
+              "value": "Residential and nursing care home",
+              "display": "Residential and nursing care home"
+            }
+          },
+          {
+            "coordinator": "or",
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is",
+            "value": {
+              "type": "Value",
+              "value": "Nursing care home",
+              "display": "Nursing care home"
+            }
+          },
+          {
+            "coordinator": "or",
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is",
+            "value": {
+              "type": "Value",
+              "value": "Residential care home",
+              "display": "Residential care home"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "S10Q1: IS ANSWERED",
+      "name": "tholUC",
+      "value": {
+        "name": "S10Q1: IS ANSWERED",
+        "conditions": [
+          {
+            "field": {
+              "name": "S10Q1",
+              "type": "RadiosField",
+              "display": "S10Q1. How would you describe this risk assessment tool?"
+            },
+            "operator": "is not",
+            "value": {
+              "type": "Value",
+              "value": " ",
+              "display": " "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "S1Q1:NEITHER",
+      "name": "VBVcUJ",
+      "value": {
+        "name": "S1Q1:NEITHER",
+        "conditions": [
+          {
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is not",
+            "value": {
+              "type": "Value",
+              "value": "Residential and nursing care home",
+              "display": "Residential and nursing care home"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is not",
+            "value": {
+              "type": "Value",
+              "value": "Other",
+              "display": "Other"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is not",
+            "value": {
+              "type": "Value",
+              "value": "Residential care home",
+              "display": "Residential care home"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "S1Q1",
+              "type": "RadiosField",
+              "display": "S1Q1. What type of adult social care provider are you?"
+            },
+            "operator": "is not",
+            "value": {
+              "type": "Value",
+              "value": "Nursing care home",
+              "display": "Nursing care home"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "just-covid",
+      "name": "cPIGBp",
+      "value": {
+        "name": "just-covid",
+        "conditions": [
+          {
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "COVID-19",
+              "display": "COVID-19"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "does not contain",
+            "value": { "type": "Value", "value": "Flu", "display": "Flu" }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "does not contain",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "just-other-ari",
+      "name": "jOari",
+      "value": {
+        "name": "just-other-ari",
+        "conditions": [
+          {
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "does not contain",
+            "value": { "type": "Value", "value": "Flu", "display": "Flu" }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "does not contain",
+            "value": {
+              "type": "Value",
+              "value": "COVID-19",
+              "display": "COVID-19"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "covid and other ari",
+      "name": "cILWvX",
+      "value": {
+        "name": "covid and other ari",
+        "conditions": [
+          {
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "COVID-19",
+              "display": "COVID-19"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "all",
+      "name": "LUPMtz",
+      "value": {
+        "name": "all",
+        "conditions": [
+          {
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "COVID-19",
+              "display": "COVID-19"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "1-covid-and-other-ari",
+      "name": "ocaORI",
+      "value": {
+        "name": "1-covid-and-other-ari",
+        "conditions": [
+          {
+            "field": {
+              "name": "HAEBSr",
+              "type": "RadiosField",
+              "display": "How many cases of COVID-19 are you reporting?"
+            },
+            "operator": "is",
+            "value": { "type": "Value", "value": "1", "display": "1" }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "1-covid-just-covid",
+      "name": "ayPFQr",
+      "value": {
+        "name": "1-covid-just-covid",
+        "conditions": [
+          {
+            "field": {
+              "name": "HAEBSr",
+              "type": "RadiosField",
+              "display": "How many cases of COVID-19 are you reporting?"
+            },
+            "operator": "is",
+            "value": { "type": "Value", "value": "1", "display": "1" }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "does not contain",
+            "value": {
+              "type": "Value",
+              "value": "Flu",
+              "display": "Flu"
+            }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What acute respiratory infections are you reporting?"
+            },
+            "operator": "does not contain",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "2-covid",
+      "name": "tljPxL",
+      "value": {
+        "name": "2-covid",
+        "conditions": [
+          {
+            "field": {
+              "name": "HAEBSr",
+              "type": "RadiosField",
+              "display": "How many cases of COVID-19 are you reporting?"
+            },
+            "operator": "is",
+            "value": {
+              "type": "Value",
+              "value": "2 or more",
+              "display": "2 or more"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "displayName": "1-covid-and-other-ari",
+      "name": "hUbOMr",
+      "value": {
+        "name": "1-covid-and-other-ari",
+        "conditions": [
+          {
+            "field": {
+              "name": "HAEBSr",
+              "type": "RadiosField",
+              "display": "How many cases of COVID-19 are you reporting?"
+            },
+            "operator": "is",
+            "value": { "type": "Value", "value": "1", "display": "1" }
+          },
+          {
+            "coordinator": "and",
+            "field": {
+              "name": "PPmOjL",
+              "type": "CheckboxesField",
+              "display": "What respiratory infections are you reporting?"
+            },
+            "operator": "contains",
+            "value": {
+              "type": "Value",
+              "value": "Any other acute respiratory infections",
+              "display": "Any other acute respiratory infections"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "fees": [],
+  "outputs": [],
+  "version": 2,
+  "skipSummary": false,
+  "declaration": "<br class=\"govuk-prose-scope\">\n  <p class=\"govuk-body\">Your responses may be shared with your local UKHSA health protection team, your local authority community infection control team, and the NHS. They will use your information to help you to manage your situation.</br>\n  <p class=\"govuk-body\">By submitting this report you confirm that the details you are providing are correct to the best of your knowledge. You confirm that you have not included any personally identifiable information, for example names or dates of birth</p>\n</div>\n",
+  "name": "Prototype Report An Outbreak",
+  "phaseBanner": {
+    "phase": "Beta"
+  }
+}
