@@ -430,6 +430,9 @@
       ],
       "next": [
         {
+          "path": "/covid"
+        },
+        {
           "path": "/covid",
           "condition": "cILWvX"
         },
@@ -472,6 +475,7 @@
         }
       ],
       "next": [
+        { "path": "/covid-19-in-your-setting" },
         { "path": "/you-do-not-need-to-report", "condition": "ayPFQr" },
         { "path": "/covid-19-in-your-setting", "condition": "tljPxL" },
         {
@@ -511,7 +515,11 @@
           "content": "You only need to report:<br><ul><li style='list-style-type: disc;margin-left:20px'>2 or more cases of an acute respiratory infection in your setting with<br> symptoms that started within 5 days of each other</li><li style='list-style-type: disc;margin-left:20px'>single cases of confirmed flu</li></ul>"
         }
       ],
-      "next": []
+      "next": [
+        {
+          "path": "/acute-respiratory-infections-ari---covid-19-flu-or-unknown-infection-in-adult-social-care-settings"
+        }
+      ]
     },
     {
       "path": "/covid-19-in-your-setting",
@@ -881,6 +889,9 @@
         }
       ],
       "next": [
+        {
+          "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1"
+        },
         {
           "path": "/Section-6-Details-about-current-Acute-Respiratory-Infections-(ARIs)-in-your-setting-Continuation-1",
           "condition": "cILWvX"
