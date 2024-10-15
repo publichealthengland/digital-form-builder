@@ -464,8 +464,6 @@
         {
           "name": "HAEBSr",
           "options": {
-            "required": false,
-            "optionalText": false,
             "hideTitle": true
           },
           "type": "RadiosField",
