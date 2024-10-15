@@ -132,6 +132,8 @@
         {
           "name": "S1Q1",
           "options": {
+            "required": false,
+            "optionalText": true,
             "hideTitle": true,
             "customValidationMessage": "Select the type of adult social care that you provide"
           },
@@ -170,7 +172,7 @@
       "components": [
         {
           "name": "S1Q4",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "nameHasError": false,
           "title": "S1Q4. Name of Care Home",
@@ -179,7 +181,7 @@
         },
         {
           "name": "S1Q5",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q5. Name of Key Contact Person",
           "nameHasError": false,
@@ -187,7 +189,7 @@
         },
         {
           "name": "S1Q6",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q6. Position of Key Contact Person",
           "nameHasError": false,
@@ -197,6 +199,8 @@
         {
           "name": "S1Q7",
           "options": {
+            "required": false,
+            "optionalText": false,
             "customValidationMessage": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 808 157 0192",
             "customValidationMessages": {
               "string.base": "S1Q7. Telephone number/s of Key Contact Person is required",
@@ -212,6 +216,8 @@
         {
           "name": "S1Q8",
           "options": {
+            "required": false,
+            "optionalText": false,
             "customValidationMessages": {
               "string.empty": "Enter an email address in the correct format, like name@example.com",
               "string.pattern.base": "Enter an email address in the correct format, like name@example.com"
@@ -238,7 +244,7 @@
       "components": [
         {
           "name": "S1Q3",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q3. Name of Care Provider/Company/Setting",
           "nameHasError": false,
@@ -247,7 +253,7 @@
         },
         {
           "name": "S1Q5",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q5. Name of Key Contact Person",
           "nameHasError": false,
@@ -256,7 +262,7 @@
         },
         {
           "name": "S1Q6",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q6. Position of Key Contact Person",
           "nameHasError": false,
@@ -266,6 +272,8 @@
         {
           "name": "S1Q7",
           "options": {
+            "required": false,
+            "optionalText": false,
             "customValidationMessage": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 808 157 0192",
             "customValidationMessages": {
               "string.base": "S1Q7. Telephone number/s of Key Contact Person is required",
@@ -281,6 +289,8 @@
         {
           "name": "S1Q8",
           "options": {
+            "required": false,
+            "optionalText": false,
             "customValidationMessages": {
               "string.empty": "Enter an email address in the correct format, like name@example.com",
               "string.pattern.base": "Enter an email address in the correct format, like name@example.com"
@@ -313,7 +323,7 @@
         },
         {
           "name": "S1Q2",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q2. State your setting type",
           "nameHasError": false,
@@ -321,7 +331,7 @@
         },
         {
           "name": "S1Q3",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q3. Name of Care Provider/Company/Setting",
           "nameHasError": false,
@@ -330,7 +340,7 @@
         },
         {
           "name": "S1Q5",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q5. Name of Key Contact Person",
           "nameHasError": false,
@@ -338,7 +348,7 @@
         },
         {
           "name": "S1Q6",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "TextField",
           "title": "S1Q6. Position of Key Contact Person",
           "nameHasError": false,
@@ -348,6 +358,8 @@
         {
           "name": "S1Q7",
           "options": {
+            "required": false,
+            "optionalText": false,
             "customValidationMessage": "Enter a telephone number, like 01632 960 001, 07700 900 982 or +44 808 157 0192",
             "customValidationMessages": {
               "string.base": "S1Q7. Telephone number/s of Key Contact Person is required",
@@ -363,6 +375,8 @@
         {
           "name": "S1Q8",
           "options": {
+            "required": false,
+            "optionalText": false,
             "customValidationMessages": {
               "string.empty": "Enter an email address in the correct format, like name@example.com",
               "string.pattern.base": "Enter an email address in the correct format, like name@example.com"
@@ -402,7 +416,11 @@
         },
         {
           "name": "PPmOjL",
-          "options": { "hideTitle": true },
+          "options": {
+            "required": false,
+            "optionalText": false,
+            "hideTitle": true
+          },
           "type": "CheckboxesField",
           "hint": "You can select more than one option",
           "list": "mAuVdL",
@@ -442,7 +460,11 @@
         },
         {
           "name": "HAEBSr",
-          "options": { "hideTitle": true },
+          "options": {
+            "required": false,
+            "optionalText": false,
+            "hideTitle": true
+          },
           "type": "RadiosField",
           "title": "How many cases of COVID-19 are you reporting?",
           "list": "nlpDYJ",
@@ -511,21 +533,21 @@
         },
         {
           "name": "EOIyKr",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "Did symptoms in 2 or more cases of COVID-19 start within 5 days of each other?",
           "list": "VSatMd"
         },
         {
           "name": "fAgDrv",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "Is it possible that at least 2 of the cases of COVID-19 are linked by spread in your setting?​",
           "list": "VSatMd"
         },
         {
           "name": "TXvPXd",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "Has at least one case of COVID-19 been confirmed by a positive rapid lateral flow test?",
           "list": "rcjLpd"
@@ -559,7 +581,7 @@
         },
         {
           "name": "lTbYAz",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "How many cases of an acute respiratory infection that is not COVID-19 or flu are you reporting? ",
           "hint": "This includes viruses such as respiratory syncytial virus, rhinovirus, parainfluenza, chest infections or other ARI.",
@@ -592,7 +614,7 @@
         },
         {
           "name": "zAiouB",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "Do you have a positive test result for the ARI that is not COVID-19 or flu?",
           "list": "rcjLpd"
@@ -624,14 +646,14 @@
         },
         {
           "name": "UuhMNH",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "Did symptoms in 2 or more cases start within 5 days of each other?",
           "list": "VSatMd"
         },
         {
           "name": "nJRBWY",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "Is it possible that at least 2 of the cases are linked by spread in your setting?​",
           "list": "VSatMd"
@@ -659,7 +681,11 @@
         },
         {
           "name": "oPa2ka",
-          "options": { "hideTitle": true },
+          "options": {
+            "required": false,
+            "optionalText": false,
+            "hideTitle": true
+          },
           "type": "Para",
           "content": "<style>body {font-family: Arial, sans-serif;margin: 20px;}h1 {font-size: 24px;}h2 {font-size: 20px;color: #333;}.section {border: 1px solid #ccc;padding: 10px;margin-bottom: 20px;}.row {display: flex;justify-content: space-between;padding:5px 0;border-bottom: 1px solid #ddd}.row:last-child {border-bottom: none;}  a { color: #007bff;text-decoration: none;} a:hover {text-decoration: underline;} .continue {margin-top: 20px;font-style: italic;}</style></head><body><div class='section'><h2>COVID-19 in your setting</h2><div class='row'><span>Number of cases you are reporting</span><span>2 or more <a href='#'>Change</a></span></div><div class='row'>    <span>Symptoms started within 5 days of each other</span>    <span>Yes <a href='#'>Change</a></span></div><div class='row'> <span>You think the cases of COVID-19 are linked by spread in your setting</span><span>Yes <a href='#'>Change</a></span></div><div class='row'><span>At least one positive rapid lateral flow test</span><span>Yes <a href='#'>Change</a></span></div> </div> <div class='section'><h2>Acute respiratory infection in your setting</h2><div class='row'><span>Number of cases you are reporting</span><span>2 or more <a href='#'>Change</a></span></div><div class='row'> <span>Positive test result</span><span>Yes <a href='#'>Change</a></span></div><div class='row'><span>Symptoms started within 5 days of each other</span> <span>Yes <a href='#'>Change</a></span></div><div class='row'><span>You think the cases are linked by spread in your setting</span><span>Yes <a href='#'>Change</a></span></div></div><p class='continue'>Continue to tell us more about the cases of acute respiratory infections in your setting.</p>\n",
           "schema": {}
@@ -696,7 +722,7 @@
       "components": [
         {
           "name": "S4Q2",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "S4Q2. What is the total number of resident-client COVID-19 cases in the outbreak you are reporting (LFD confirmed only)?",
           "nameHasError": false,
@@ -708,7 +734,7 @@
         },
         {
           "name": "S4Q3",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "S4Q3. What is the total number of staff COVID-19 cases in the outbreak you are reporting (LFD confirmed only)?",
           "nameHasError": false,
@@ -720,7 +746,7 @@
         },
         {
           "name": "S4Q4",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "S4Q4. What is the total number of residents-clients with COVID-19 symptoms who have not been tested?",
           "nameHasError": false,
@@ -732,7 +758,7 @@
         },
         {
           "name": "S4Q5",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "S4Q5. What is the total number of staff with COVID-19 symptoms who have not been tested? ",
           "nameHasError": false,
@@ -745,7 +771,8 @@
         {
           "name": "S4Q6",
           "options": {
-            "required": true,
+            "required": false,
+            "optionalText": false,
             "maxDaysInFuture": "0",
             "customValidationMessages": {
               "date.base": "The date that symptoms started must be a real date",
@@ -764,6 +791,7 @@
           "name": "S4Q7",
           "options": {
             "required": false,
+            "optionalText": false,
             "maxDaysInFuture": "0",
             "customValidationMessages": {
               "date.base": "The date that symptoms started must be a real date",
@@ -783,7 +811,8 @@
         {
           "name": "S4Q8",
           "options": {
-            "required": true,
+            "required": false,
+            "optionalText": false,
             "maxDaysInFuture": "0",
             "customValidationMessages": {
               "date.base": "The date that symptoms started must be a real date",
@@ -802,7 +831,7 @@
         },
         {
           "name": "S4Q9",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "S4Q9. For how many of your COVID-19 cases have you had to call the GP to review because of the severity of their illness?",
           "nameHasError": false,
@@ -814,7 +843,7 @@
         },
         {
           "name": "S4Q10",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "S4Q10. During this outbreak, how many residents/clients or staff have been hospitalised due to COVID-19?",
           "nameHasError": false,
@@ -826,7 +855,7 @@
         },
         {
           "name": "S4Q11",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "S4Q11. During this outbreak, how many residents/clients or staff have died due to COVID-19?",
           "nameHasError": false,
@@ -839,7 +868,8 @@
         {
           "name": "S4Q12",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "YesNoField",
           "title": "S4Q12. Are you aware of any media interest in this outbreak?",
@@ -882,7 +912,7 @@
       "components": [
         {
           "name": "S6Q2",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "S6Q2. What is the total number of Residents-Clients with this ARI in your setting (suspected or confirmed)?",
           "nameHasError": false,
@@ -894,7 +924,7 @@
         },
         {
           "name": "S6Q3",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "S6Q3. What is the total number of Staff with this ARI in your setting (suspected or confirmed)?",
           "nameHasError": false,
@@ -907,7 +937,8 @@
         {
           "name": "S6Q4",
           "options": {
-            "required": true,
+            "required": false,
+            "optionalText": false,
             "maxDaysInFuture": "0",
             "errorLabel": "The date that symptoms started"
           },
@@ -921,6 +952,7 @@
           "name": "S6Q5",
           "options": {
             "required": false,
+            "optionalText": false,
             "maxDaysInFuture": "0",
             "errorLabel": "The date that symptoms started",
             "comparisonLabel": "second case",
@@ -936,7 +968,8 @@
         {
           "name": "S6Q6",
           "options": {
-            "required": true,
+            "required": false,
+            "optionalText": false,
             "maxDaysInFuture": "0",
             "errorLabel": "The date that symptoms started",
             "comparisonLabel": "most recent case",
@@ -953,6 +986,7 @@
           "name": "S6Q7",
           "options": {
             "required": false,
+            "optionalText": false,
             "errorLabel": "The date that symptoms started"
           },
           "type": "NumberField",
@@ -967,7 +1001,8 @@
         {
           "name": "S6Q8",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q8. How many of these staff cases have been tested for COVID-19?",
@@ -981,7 +1016,8 @@
         {
           "name": "S6Q9",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q9. Of the residents-clients tested for Covid-19, how many had a positive result?",
@@ -995,7 +1031,8 @@
         {
           "name": "S6Q10",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q10. Of the staff tested for Covid-19, how many had a positive result?",
@@ -1009,7 +1046,8 @@
         {
           "name": "S6Q11",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q11. How many of these resident-clients cases have been tested for Flu?",
@@ -1023,7 +1061,8 @@
         {
           "name": "S6Q12",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q12. How many of these staff cases have been tested for Flu?",
@@ -1037,7 +1076,8 @@
         {
           "name": "S6Q13",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q13. Of the residents-clients tested for Flu, how many had a positive result?",
@@ -1051,7 +1091,8 @@
         {
           "name": "S6Q14",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q14. Of the staff tested for Flu, how many had a positive result?",
@@ -1064,7 +1105,7 @@
         },
         {
           "name": "S6Q15",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "S6Q15. For how many of your cases with this ARI have you had to call the GP to review because of the severity of their illness?",
           "nameHasError": false,
@@ -1077,7 +1118,8 @@
         {
           "name": "S6Q16",
           "options": {
-            "required": false
+            "required": false,
+            "optionalText": false
           },
           "type": "NumberField",
           "title": "S6Q16. How many of all cases have been started on antibiotics for their respiratory symptoms?",
@@ -1090,7 +1132,7 @@
         },
         {
           "name": "S6Q17",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "S6Q17. During this outbreak, how many cases been hospitalised due to this ARI?",
           "nameHasError": false,
@@ -1102,7 +1144,7 @@
         },
         {
           "name": "S6Q18",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "RadiosField",
           "title": "S6Q18. During this outbreak, how many cases have died due to this ARI? ",
           "nameHasError": false,
@@ -1125,39 +1167,39 @@
       "components": [
         {
           "name": "ale4Va",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "Para",
           "schema": {},
           "content": "<span class='govuk-caption-l' style='margin-bottom: -30px; margin-top: -30px'>Infections you are reporting</span>"
         },
         {
           "name": "wTchD",
-          "options": {},
+          "options": { "required": false, "optionalText": false },
           "type": "Para",
           "schema": {},
           "content": "<p class='govuk-heading-l'>Vaccination among your staff and service users</p>"
         },
         {
           "name": "ZHUYNZ",
-          "options": { "required": false },
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "How many service users are up to date with the current COVID-19 vaccination schedule?"
         },
         {
           "name": "uPUoxI",
-          "options": { "required": false },
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "How many staff are up to date with the current COVID-19 vaccination schedule?"
         },
         {
           "name": "MaSswr",
-          "options": { "required": false },
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "How many service users have had the flu vaccine for this current winter season?"
         },
         {
           "name": "nIUqPq",
-          "options": { "required": false },
+          "options": { "required": false, "optionalText": false },
           "type": "NumberField",
           "title": "How many staff have had the flu vaccine for this current winter season?"
         }
