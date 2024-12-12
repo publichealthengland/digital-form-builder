@@ -2734,10 +2734,10 @@
   "outputs": [
     {
       "name": "WEBHOOOK",
-      "title": "CareOBRA SalesForce",
+      "title": "Pipedream Burendo test account",
       "type": "webhook",
       "outputConfiguration": {
-        "url": "${Webhook.URL}"
+        "url": "https://eoiiyxogrd23nph.m.pipedream.net"
       }
     }
   ],
