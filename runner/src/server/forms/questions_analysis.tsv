@@ -1,0 +1,131 @@
+Title	Name	Type	Answer Options	Hint	Summary Title
+What type of adult social care do you provide?	CareSettingType	RadiosField	Residential care home | Nursing care home | Residential and nursing care home | Supported living | Extra care | Domiciliary or home care | Rehabilitation, reablement or respite | Other adult social care		Setting type
+Do you have any positive test results for an acute respiratory infection?	PositiveARI	RadiosField	Yes | No	The infection must have been confirmed by a test, for example a lateral flow test, flu swab test or a laboratory test.	Positive test result
+Which acute respiratory infections do you have a positive test result for?	WhichARI	CheckboxesField	COVID-19 | Flu | Any other acute respiratory infections	You can select more than one option	Infection
+	TwoOrMoreCovid	RadiosField	Yes | No		2 or more cases
+	TwoOrMoreCovid	RadiosField	Yes | No		2 or more cases
+Did symptoms in 2 or more cases start within 5 days of each other?	TwoOrMoreCovid5days	RadiosField	Yes | No | Not sure		Symptoms started within 5 days of each other
+Is it possible that at least 2 of the cases are linked by spread in your setting?​	TwoOrMoreCovidSpread	RadiosField	Yes | No | Not sure		The cases are linked by spread
+Are you reporting 2 or more cases of an acute respiratory infection?	TwoOrMoreARI	RadiosField	Yes | No		2 or more cases
+Are you reporting 2 or more cases of an acute respiratory infection that is not COVID-19 or flu?	TwoOrMoreCasesNotCovidFlu	RadiosField	Yes | No	This includes viruses such as respiratory syncytial virus, rhinovirus, parainfluenza and chest infections	2 or more cases
+What infection are you reporting?	ARIInfectionType	CheckboxesField	Adenovirus | Human Metapneumovirus (hMPV) | Parainfluenza | Respiratory Syncytial Virus (RSV) | Rhinovirus | Other acute respiratory infection	You can select more than one option	Infection type
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have been tested for COVID-19?	ServiceUsersTestedCovid	NumberField		If none, enter 0	
+How many service users have been tested for flu?	ServiceUsersTestedFlu	NumberField		If none, enter 0	
+How many service users have tested positive for adenovirus?	ServiceUsersAdenovirus	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for human Metapneumovirus (hMPV)?	ServiceUsersHmpv	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for parainfluenza?	ServiceUsersParainfluenza	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for Respiratory Syncytial Virus (RSV)?	ServiceUsersRSV	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for rhinovirus?	ServiceUsersRhinovirus	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for an other acute respiratory infection?	ServiceUsersOtherARI	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for adenovirus?	StaffAdenovirus	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for human Metapneumovirus (hMPV)?	StaffHmpv	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for parainfluenza?	StaffParainfluenza	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for Respiratory Syncytial Virus (RSV)?	StaffRSV	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for rhinovirus?	StaffRhinovirus	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for an other acute respiratory infection?	StaffOtherARI	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have symptoms of an acute respiratory infection but have not been tested?	ServiceUsersConfirmedARI	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have been tested for COVID-19?	ServiceUsersTestedCovid	NumberField		If none, enter 0	
+How many service users have been tested for flu?	ServiceUsersTestedFlu	NumberField		If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have been tested for COVID-19?	StaffTestedCovid	NumberField		If none, enter 0	
+How many service users have been tested for flu?	StaffTestedFlu	NumberField		If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have been tested for COVID-19?	StaffTestedCovid	NumberField		If none, enter 0	
+How many staff have been tested for flu?	StaffTestedFlu	NumberField		If none, enter 0	
+How many cases are you reporting?	NumberOfCasesOfFlu	RadiosField	1 | 2 or more	Include cases confirmed by a test and people with symptoms of acute respiratory infections.	
+Who has the case of flu?	SingleCaseOfFluServiceOrStaff	RadiosField	Service user | Staff		
+How many service users have flu confirmed by a positive swab test?	ServiceUsersFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have been diagnosed with a chest infection by a GP?	ServiceUsersChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have been tested for COVID-19?	ServiceUsersChestInfectionCovid19	NumberField		If none, enter 0	
+How many staff have flu confirmed by a positive swab test?	StaffFluSwabTest	NumberField		Include those who are currently in hospital.	
+How many staff have been diagnosed with a chest infection by a GP?	StaffChestInfection	NumberField		Include those who are currently in hospital<br>If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>This usually includes people who have a sudden onset of acute respiratory symptoms and fever<br><br>Include those who are currently in hospital<br>If none, enter 0	
+How many staff have been tested for COVID-19?	StaffChestInfectionCovid19	NumberField		If none, enter 0	
+When did symptoms start?	FluSymptomOnsetDate	DatePartsField		For example, 31 3 2024	
+Have you called the GP because of the severity of illness in this case?	SingleCaseOfFluSeverityCalledGP	RadiosField	Yes | No		
+Has the person been hospitalised with the flu?	SingleCaseOfFluSeverityHospitalised	RadiosField	Yes | No		
+Has the person died with flu in this case?	SingleCaseOfFluSeverityDeath	RadiosField	Yes | No		
+Service users: how many are up to date with the current COVID-19 vaccination schedule?	ServiceUsersCovid19Vaccination	NumberField			
+Service users: how many have had the flu vaccine for this current winter season?	ServiceUsersFluVaccination	NumberField			
+Service users: how many have had the respiratory syncytial virus (RSV) vaccine?	ServiceUsersRSVVaccination	NumberField			
+Staff: how many are up to date with the current COVID-19 vaccination schedule?	StaffCovid19Vaccination	NumberField			
+Staff: how many have had the flu vaccine for this current winter season?	StaffFluVaccination	NumberField			
+	ARIServiceOrStaff	CheckboxesField	Service users | Staff	You can select more than one option	
+	OtherARIServiceOrStaff	CheckboxesField	Service users | Staff	You can select more than one option	
+	ARIServiceOrStaff	CheckboxesField	Service users | Staff	You can select more than one option	
+How many service users have COVID-19 confirmed by a positive test?	ServiceUsersCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for adenovirus?	ServiceUsersConfirmedARI	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have been tested for flu?	ServiceUsersTestedFlu	NumberField		If none, enter 0	
+How many staff have COVID-19 confirmed by a positive test?	StaffCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for adenovirus?	StaffConfirmedARI	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have been tested for flu?	StaffTestedFlu	NumberField		If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Include those who are currently in hospital<br>If none, enter 0	
+How many staff have been tested for COVID-19?	OtherARIStaffTestedCovid	NumberField		If none, enter 0	
+How many staff have been tested for flu?	OtherARIStaffTestedFlu	NumberField		If none, enter 0	
+How many service users have COVID-19 confirmed by a positive test?	ServiceUsersCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have flu confirmed by a positive swab test?	ServiceUsersFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have been diagnosed with a chest infection by a GP?	ServiceUsersChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have COVID-19 confirmed by a positive test?	StaffCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have flu confirmed by a positive swab test?	StaffFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have been diagnosed with a chest infection by a GP?	StaffChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br><br>If none, enter 0	
+How often do you monitor staff infection prevention and control practices?	IPCPractices	RadiosField	more than once a month | every 1 to 6 months | every 7 to 12 months | less than every 12 months | we do not monitor infection prevention and control practices	For example, hand hygiene, use of personal protective equipment (PPE) and cleaning	
+What issues do you currently need support with?	Issues	CheckboxesField	COVID-19: access to treatments | COVID-19: LFD test kit supply | Hand hygiene | Keeping symptomatic service users away from others | New admissions or transfer of service users | Staffing | Supply of PPE | Use of PPE | Visits | Waste, cleaning or laundry | No issues	You can select more than one option	
+Does your setting undertake aerosol generating procedures (AGPs)?	AGPs	RadiosField	Yes | No	For example, inserting or removing a tracheotomy or ostomy, sputum induction, respiratory tract suctioning below the oro-pharynx (mouth suctioning is not an AGP)	
+Are you aware of any media interest in this outbreak?	MediaInterest	RadiosField	Yes | No		
+How many service users have you called the GP about because of the severity of illness in this outbreak?	FluSeverityCalledGPMultipleCases	RadiosField	0 | 1 | 2 to 3 | 4 to 5 | More than 5 | I do not know		
+How many service users or staff have been given antibiotics for their respiratory symptoms?	FluSeverityAntibiotics	NumberField			
+How many service users or staff have been hospitalised because of an acute respiratory infection in this outbreak?	FluSeverityHospitalisedMultipleCases	RadiosField	0 | 1 | 2 to 3 | 4 to 5 | More than 5 | I do not know		
+How many service users or staff have died because of an acute respiratory infection in this outbreak?	FluSeverityDeathMultipleCases	RadiosField	0 | 1 | 2 to 3 | 4 to 5 | More than 5 | I do not know		
+Are the cases linked to a specific area of the setting?	FluSeveritySpecificArea	RadiosField	Cases are all within one specific area | Cases are across more than one area | Not sure | Not applicable to my setting (for example, not residential)		
+How many service users have COVID-19 confirmed by a positive test?	ServiceUsersCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have COVID-19 confirmed by a positive test?	ServiceUsersCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have flu confirmed by a positive swab test?	ServiceUsersFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have been diagnosed with a chest infection by a GP?	ServiceUsersChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br><br>If none, enter 0	
+How many staff have COVID-19 confirmed by a positive test?	StaffCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have COVID-19 confirmed by a positive test?	StaffCovidTestPositive	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have flu confirmed by a positive swab test?	StaffFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have been diagnosed with a chest infection by a GP?	StaffChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have flu confirmed by a positive swab test?	ServiceUsersFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have tested positive for adenovirus?	ServiceUsersConfirmedARI	NumberField		Include those who are currently in hospital or on visits out	
+How many service users have been diagnosed with a chest infection by a GP?	ServiceUsersChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have symptoms of an acute respiratory infection, but have not been tested for any infection?	ServiceUsersSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many service users have been tested for COVID-19?	ServiceUsersTestedCovid	NumberField		If none, enter 0	
+How many staff have flu confirmed by a positive swab test?	StaffFluSwabTest	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have tested positive for adenovirus?	StaffConfirmedARI	NumberField		Include those who are currently in hospital or on visits out	
+How many staff have been diagnosed with a chest infection by a GP?	StaffChestInfection	NumberField		Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have symptoms of an acute respiratory infection, but have not been tested for any infection?	StaffSymptomsNotTested	NumberField		Do not include cases that have been confirmed by a test as flu or diagnosed by a GP as a chest infection<br><br>Among elderly people this may include people who have a sudden onset of acute respiratory symptoms, fever, or sudden mental or physical deterioration without any other known cause<br><br>Include those who are currently in hospital or on visits out<br>If none, enter 0	
+How many staff have been tested for COVID-19?	StaffUsersTestedCovid	NumberField		If none, enter 0	
+How many service users have you called the GP about because of the severity of illness in this outbreak?	SeverityGPCalls	RadiosField	0 | 1 | 2 to 3 | 4 to 5 | More than 5 | I do not know		
+How many service users or staff have been hospitalised because of an acute respiratory infection in this outbreak?	SeverityHospitalisations	RadiosField	0 | 1 | 2 to 3 | 4 to 5 | More than 5 | I do not know		
+How many service users or staff have died because of an acute respiratory infection in this outbreak?	SeverityDeaths	RadiosField	0 | 1 | 2 to 3 | 4 to 5 | More than 5 | I do not know		
+When did symptoms start in the first case in this outbreak?	FirstCaseOnset	DatePartsField		For example, 31 3 2025	
+When did symptoms start in the most recent case in this outbreak?	MostRecentCaseOnset	DatePartsField		For example, 31 3 2025	
+Do staff carrying out aerosol generating procedures (AGPs) wear fit-tested FFP3 masks?	FFP3Masks	RadiosField	All | Some | None | I do not know		
+Do you use agency staff or share staff with other care settings?	AgencyStaff	RadiosField	Yes | No		
+How many additional agency staff or staff from other care settings have you used during this outbreak?	AdditionalStaff	RadiosField	Fewer than 5 | 5 or more		
+Your setting name	SettingName	TextField		The name of the setting where the cases are located, not the management company	
+Your setting postcode	SettingPostcode	TextField		The postcode of the setting where the cases are located, not the management company.	
+Your local UKHSA health protection team	HPT	SelectField	East of England HPT | West Midlands HPT | South West HPT		
+Is your care setting registered with the Care Quality Commission (CQC)?	CQCRegistered	RadiosField	Yes | No		
+Full name	MainContactName	TextField			
+Job title	MainContactJobTitle	TextField		For example, manager, senior carer	
+Phone number	MainContactPhoneNumber	TextField			
+Email address	MainContactEmailAddress	TextField			
+Full name	AltContactName	TextField			
+Job title	AltContactJobTitle	TextField		For example, manager, senior carer	
+Phone number	AltContactPhoneNumber	TextField			
+Email address	AltContactEmailAddress	TextField			
+Select the options that best describe the majority of your service users	ServiceUsersTypes	CheckboxesField	People with learning difficulties or learning disabilities | People with physical disabilities or severe medical conditions | People with mental health needs | People with substance misuse issues | People living with dementia | Under 65 years | 65 years or over	You can select more than one option	
+How many service users currently live in your care setting or use your service?	ServiceUsersCurrentlyLive	NumberField	People with learning difficulties or learning disabilities | People with physical disabilities or severe medical conditions | People with mental health needs | People with substance misuse issues | People living with dementia | Under 65 years | 65 years or over	Include those who are currently in hospital or on visits out	
+How many staff currently work in your care setting or service?	StaffNumber	NumberField			
+How many empty beds do you have in your care setting?	EmptyBeds	NumberField		If you do not know, leave this blank	
